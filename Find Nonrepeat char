@@ -9,7 +9,10 @@ def solution(s):
         return i
     return -1
 
-if __name__ == '__main__':
+def main():
     print(solution('alphabet'))
     print(solution('barbados'))
     print(solution('crunchy'))
+
+if __name__ == '__main__':
+    main()
