@@ -1,3 +1,10 @@
+"""
+@author: gangylee
+
+Description : 
+    # Find the longest Palindrome in a String
+"""
+
 def Palindrome(text):
     # Create a string to store our resultant palindrome
     palindrome = ''
