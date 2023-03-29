@@ -1,3 +1,14 @@
+"""
+@author: gangylee
+
+Description : 
+    # Given an integer, return the integer with reversed digits.
+    # Note: The integer could be either positive or negative.
+    # Examples:
+        #    -231 -> -132
+        #    345 -> 543
+"""
+
 def solution(x):
     ans = str(x)[::-1]
     if ans[-1] == '-':
