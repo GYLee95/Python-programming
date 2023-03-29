@@ -5,8 +5,8 @@ Description :
     # Given an integer, return the integer with reversed digits.
     # Note: The integer could be either positive or negative.
     # Examples:
-        #    -231 -> -132
-        #    345 -> 543
+    #    -231 -> -132
+    #     345 -> 543
 """
 
 def solution(x):
