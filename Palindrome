@@ -1,0 +1,29 @@
+def Palindrome(text):
+    # Create a string to store our resultant palindrome
+    palindrome = ''
+
+    length = len(text)
+
+    # loop through the input string
+    for i in range(length):
+        # loop backwards through the input string
+        for j in range(length, i, -1):
+            # Break if out of range
+            if len(palindrome) >= j-i:
+                break
+            # Update variable if matches
+            elif text[i:j] == text[i:j][::-1]:
+                palindrome = text[i:j]
+                break
+    return palindrome
+
+def main():
+    inputstring = input("Enter a string:")
+    print("String is: " + inputstring)
+
+    ans = Palindrome(inputstring)
+    print("Longest palindrome : " + ans)
+    print(len(ans))
+    
+if __name__ == '__main__':
+    main()
